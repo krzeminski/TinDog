@@ -1,0 +1,206 @@
+body{
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Headings */
+
+
+.big-heading{
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+ .white-section{
+   background-color: #fff;
+   color: ;
+ }
+
+ .colored-section{
+   background-color: #ff4c68;
+   color: #fff;
+ }
+
+
+/* Navigation Bar */
+
+.navbar{
+  padding: 0 0 4.5em;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: lighter;
+}
+
+
+/* Title section */
+
+#title .container-fluid{
+  text-align: left;
+  padding: 3% 15% 7%;
+}
+
+
+/* Download Buttons */
+
+.download-btn{
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.title-img{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 27%;
+}
+
+/* feat-icon */
+
+.feat-icon{
+  color: #ef8172;
+  font-size: 4rem;
+  margin: 20px 0;
+}
+.feat-icon:hover{
+  color:#ff4c68;
+}
+
+#features{
+  background-color: #fff;
+  color:#8f8f8f;
+  position: relative;
+}
+
+.feature-title{
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.feat-divs{
+  padding: 5%;
+}
+
+
+/* Testimonial Section */
+
+#testimonials{
+  background-color: #ef8172;
+}
+
+.testimonial-text{
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img{
+  border-radius: 50%;
+  width: 15%;
+  margin: 30px;
+}
+
+
+/* Press */
+
+#press{
+  background-color: #ef8172;
+  padding: 3%;
+}
+
+.press-img{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+
+.pricing-title{
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.prize-text{
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column{
+  padding: 5% 2%;
+}
+
+/* Call to Action Section*/
+
+
+.cta-title{
+  color: #fff;
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 0 15% 3%;
+  line-height: 1.5;
+}
+
+/* Footer */
+
+#footer{
+  background-color: #fff;
+  color:#8f8f8f;
+}
+
+
+.footer-media-icon{
+  margin: 30px 10px;
+  color: #8f8f8f;
+}
+
+.footer-media-icon:hover{
+  color: black;
+}
+
+
+@media (max-width: 1000px){
+  .title-img{
+    width: 35%;
+    position: static;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+}
